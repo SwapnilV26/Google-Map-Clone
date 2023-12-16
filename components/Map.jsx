@@ -6,7 +6,7 @@ const Map = ({ cordinates, setCordinates }) => {
   return (
     <Box className="w-full h-full">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
+        bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY }}
         defaultCenter={cordinates}
         center={cordinates}
         defaultZoom={10}
