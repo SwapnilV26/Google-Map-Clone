@@ -5,7 +5,7 @@ import List from "../components/List";
 import Map from "../components/Map";
 
 export default function Home() {
-  const [cordinates, setCordinates] = useState({ lat: 17, lng: 37 });
+  const [cordinates, setCordinates] = useState({ lat: 19.3021983, lng: 72.863352 });
   const [type, setType] = useState("restaurants");
   const [ratings, setRatings] = useState("");
   return (
